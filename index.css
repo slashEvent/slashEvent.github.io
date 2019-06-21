@@ -1,0 +1,155 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#header{
+  background-color: lightgray;
+  font-size: small;
+  font-family: 'Bellefair';
+}
+#header a{
+  color: black;
+}
+.nav-link:hover{
+  border-bottom: 2px solid rgb(0, 191, 255);
+}
+.trapezoid {
+    border-top: 45px solid ghostwhite;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height: 20px;
+    width: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url("imageOne.jpg");
+
+  /* Full height */
+  height: 650px; 
+  width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trapezoidOne {
+    border-top: 45px solid transparent;
+    border-left: 70px solid white;
+    border-right: 70px solid white;
+    height: 20px;
+    width: 100%;
+}
+.bgOne {
+  /* The image used */
+  background-image: url("slashOne.jpg");
+
+  /* Full height */
+  height: 650px; 
+  width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trapezoidTwo {
+    border-top: 45px solid transparent;
+    border-left: 70px solid #404040;
+    border-right: 70px solid #404040;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    margin-top: 560px;
+    left: 0%;
+}
+.trapezoidThree {
+    border-top: 45px solid white;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height: 20px;
+    width: 100%;
+}
+.trapezoidFour {
+    border-top: 45px solid #404040;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height: 20px;
+    width: 100%;
+}
+.trapezoidFive {
+    border-top: 45px solid transparent;
+    border-left: 70px solid ghostwhite;
+    border-right: 70px solid ghostwhite;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    margin-top: 560px;
+    left: 0%;
+}
+.trapezoidSix {
+    border-top: 45px solid transparent;
+    border-left: 70px solid #1a1a1a;
+    border-right: 70px solid #1a1a1a;
+    height: 20px;
+    width: 100%;
+}
+#contact{
+  background-color: #404040;
+  color: white;
+  width: 100%;
+}
+.bgTwo {
+  /* The image used */
+  background-image: url("slash3.jpg");
+
+  /* Full height */
+  height: 650px; 
+  width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 48px;
+  width: 88px;
+  height: 88px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 0%;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.social{
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  text-align: center;
+  font-family: 'Bellefair';
+  font-size: large;
+}
+footer{
+  background-color: #1a1a1a;
+  color: white;
+  width: 100%;
+  
+  font-family: 'Bellefair';
+  text-align: center;
+}
