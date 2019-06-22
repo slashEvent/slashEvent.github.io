@@ -15,10 +15,10 @@ body, html {
   border-bottom: 2px solid rgb(0, 191, 255);
 }
 .trapezoid {
-    border-top: 45px solid ghostwhite;
+    border-top: 40px solid ghostwhite;
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
-    height: 20px;
+    height: 40px;
     width: 100%;
 }
 .bg {
@@ -36,10 +36,10 @@ body, html {
     background-size: cover;
 }
 .trapezoidOne {
-    border-top: 45px solid transparent;
+    border-top: 40px solid transparent;
     border-left: 70px solid white;
     border-right: 70px solid white;
-    height: 20px;
+    height: 40px;
     width: 100%;
 }
 .bgOne {
@@ -57,37 +57,37 @@ body, html {
     background-size: cover;
 }
 .trapezoidTwo {
-    border-top: 45px solid transparent;
+    border-top: 40px solid transparent;
     border-left: 70px solid #404040;
     border-right: 70px solid #404040;
-    height: 20px;
+    height: 40px;
     width: 100%;
     position: absolute;
-    margin-top: 560px;
+    margin-top: 570px;
     left: 0%;
 }
 .trapezoidThree {
-    border-top: 45px solid white;
+    border-top: 40px solid white;
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
-    height: 20px;
+    height: 40px;
     width: 100%;
 }
 .trapezoidFour {
-    border-top: 45px solid #404040;
+    border-top: 40px solid #404040;
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
-    height: 20px;
+    height: 40px;
     width: 100%;
 }
 .trapezoidFive {
-    border-top: 45px solid transparent;
+    border-top: 40px solid transparent;
     border-left: 70px solid ghostwhite;
     border-right: 70px solid ghostwhite;
-    height: 20px;
+    height: 40px;
     width: 100%;
     position: absolute;
-    margin-top: 560px;
+    margin-top: 570px;
     left: 0%;
 }
 .trapezoidSix {
